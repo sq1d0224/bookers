@@ -36,6 +36,7 @@
 <% end %>
 
 <%= form_with model: @book, url: '/books', method: :post do |f| %>
+
   <div class="field">
     <label>Title</label>
     <%= f.text_field :title %>
